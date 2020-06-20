@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 interface Character {
   name: string;
-  // date: Date;
+  date: Date;
   race: string;
   class: string;
 }
@@ -15,9 +15,9 @@ interface Character {
 export class DisplayComponent {
 
   characters: Character[] = [
-    { name: 'Sith Rousse', race: 'Humaine', class: 'Voleur' },
-    { name: 'Mussy Rana', race: 'Norn', class: 'Nécromant' },
-    { name: 'Shar Na Rök', race: 'Charr', class: 'Revenant' },
+    { name: 'Sith Rousse', date: new Date(), race: 'Humaine', class: 'Voleur' },
+    { name: 'Mussy Rana', date: new Date(), race: 'Norn', class: 'Nécromant' },
+    { name: 'Shar Na Rök', date: new Date(), race: 'Charr', class: 'Revenant' },
   ];
 
   constructor() {}

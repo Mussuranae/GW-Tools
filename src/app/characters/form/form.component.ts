@@ -11,6 +11,7 @@ export class FormComponent {
   @Output() newCharacter = new EventEmitter();
   characterForm = new FormGroup({
     name: new FormControl(''),
+    date: new FormControl(''),
     race: new FormControl(''),
     class: new FormControl('')
   });
