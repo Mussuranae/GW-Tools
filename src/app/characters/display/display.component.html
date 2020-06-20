@@ -1,0 +1,26 @@
+<section>
+  <article>
+    <h3>Liste des Personnages</h3>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Personnage</th>
+          <th>Race</th>
+          <th>Classe</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr *ngFor="let char of characters">
+          <td>{{ char.name }}</td>
+          <td>{{ char.race }}</td>
+          <td>{{ char.class }}</td>
+        </tr>
+      </tbody>
+    </table>
+  </article>
+
+  <article>
+    <character-form (newCharacter)="addCharacter($event)"></character-form>
+  </article>
+</section>

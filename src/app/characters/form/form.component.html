@@ -1,0 +1,21 @@
+<h3>Ajouter un personnage</h3>
+
+<form [formGroup]="characterForm">
+  <!-- Nom du perso -->
+  <div class="input-field">
+    <input type="text" id="name" formControlName="name" placeholder="Des noms chelous certainement">
+    <label for="name">Nom du Personnage</label>
+  </div>
+  <!-- Race du perso -->
+  <div class="input-field">
+    <input type="text" id="race" formControlName="race" placeholder="Norn, Sylvari...">
+    <label for="race">Race du Personnage</label>
+  </div>
+  <!-- Classe du perso -->
+  <div class="input-field">
+    <input type="text" id="class" formControlName="class" placeholder="Nécroment, Voleur...">
+    <label for="class">Classe du Personnage</label>
+  </div>
+</form>
+
+<button (click)="addCharacter()">Ajouter</button>
