@@ -3,23 +3,43 @@
 <form [formGroup]="characterForm">
   <!-- Nom du perso -->
   <div class="input-field">
-    <input type="text" id="name" formControlName="name" placeholder="Des noms chelous certainement">
     <label for="name">Nom du Personnage</label>
+    <input type="text" id="name" formControlName="name" placeholder="Des noms chelous certainement">
   </div>
-    <!-- Date de création -->
-    <div class="input-field">
-      <input type="text" id="date" formControlName="date" placeholder="Jour, mois, année">
-      <label for="date">Date de création</label>
-    </div>
+  <!-- Date de création -->
+  <div class="input-field">
+    <label for="date">Date de création</label>
+    <input type="text" id="date" formControlName="date" placeholder="Jour, mois, année">
+  </div>
   <!-- Race du perso -->
   <div class="input-field">
-    <input type="text" id="race" formControlName="race" placeholder="Norn, Sylvari...">
     <label for="race">Race du Personnage</label>
-  </div>
+    <select name="race" id="race" formControlName="race">
+      <option *ngFor="let key of racesArray" [value]="key">{{ races[key] }}</option>
+    </select>  </div>
   <!-- Classe du perso -->
   <div class="input-field">
-    <input type="text" id="class" formControlName="class" placeholder="Nécroment, Voleur...">
     <label for="class">Classe du Personnage</label>
+    <select name="class" id="class" formControlName="class">
+      <option *ngFor="let key of classesArray" [value]="key">{{ classes[key] }}</option>
+    </select>
+  </div>
+  <!-- Role du personnage -->
+  <div class="input-field">
+    <label for="role">Rôle du Personnage</label>
+    <input type="text" id="role" formControlName="role" placeholder="McM, PvP, PvE...">
+  </div>
+  <!-- Ordre de la Tyrie -->
+  <div class="input-field">
+    <label for="order-select">Ordre de la Tyrie</label>
+    <select name="order" id="order-select" formControlName="order">
+      <option *ngFor="let key of ordersArray" [value]="key">{{ orders[key] }}</option>
+    </select>
+  </div>
+  <!-- Allié aidé -->
+  <div class="input-field">
+    <label for="ally">Allié aidé</label>
+    <input type="text" id="ally" formControlName="ally" placeholder="Allié aidé">
   </div>
 </form>
 

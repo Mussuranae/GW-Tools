@@ -9,14 +9,20 @@
           <th>Date de création</th>
           <th>Race</th>
           <th>Classe</th>
+          <th>Rôle</th>
+          <th>Ordre</th>
+          <th>Allié</th>
         </tr>
       </thead>
       <tbody>
         <tr *ngFor="let char of characters">
           <td>{{ char.name }}</td>
           <td>{{ char.date | date: 'dd/MM/yyyy' }}</td>
-          <td>{{ char.race }}</td>
-          <td>{{ char.class }}</td>
+          <td>{{ races[char.race] }}</td>
+          <td>{{ classes[char.class] }}</td>
+          <td>{{ char.role }}</td>
+          <td>{{ orders[char.order] }}</td>
+          <td>{{ char.ally }}</td>
         </tr>
       </tbody>
     </table>
