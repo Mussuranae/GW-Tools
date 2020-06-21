@@ -3,10 +3,11 @@ import { Routes, RouterModule } from '@angular/router';
 
 // Components
 import { DisplayComponent } from './characters/display/display.component';
-
+import { DesignComponent } from './design-component/design.component';
 
 const routes: Routes = [
-  { path: '', component: DisplayComponent }
+  { path: '', component: DisplayComponent },
+  { path: 'design', component: DesignComponent }
 ];
 
 @NgModule({
