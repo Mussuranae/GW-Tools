@@ -615,11 +615,15 @@ video {
   }
 }
 
+/* @import './components/input.css'; */
+
 .input {
   border-width: 1px;
   border-radius: 0.25rem;
+  width: auto;
   padding: 0.5rem;
-} */
+  margin: 0.75rem;
+}
 
 .input-primary:hover {
   --border-opacity: 1;
@@ -631,6 +635,24 @@ video {
   --border-opacity: 1;
   border-color: #3182ce;
   border-color: rgba(49, 130, 206, var(--border-opacity));
+}
+
+.btn {
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  margin: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.btn-primary {
+  --bg-opacity: 1;
+  background-color: #90cdf4;
+  background-color: rgba(144, 205, 244, var(--bg-opacity));
+  --text-opacity: 1;
+  color: #4a5568;
+  color: rgba(74, 85, 104, var(--text-opacity));
 }
 
 .space-y-0 > :not(template) ~ :not(template) {

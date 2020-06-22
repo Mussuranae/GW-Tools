@@ -4,43 +4,47 @@
   <!-- Nom du perso -->
   <div class="input-field">
     <label for="name">Nom du Personnage</label>
-    <input type="text" id="name" formControlName="name" placeholder="Des noms chelous certainement">
+    <input type="text" id="name" formControlName="name"
+    placeholder="Des noms chelous certainement" class="input input-primary">
   </div>
   <!-- Date de création -->
   <div class="input-field">
     <label for="date">Date de création</label>
-    <input type="text" id="date" formControlName="date" placeholder="Jour, mois, année">
+    <input type="text" id="date" formControlName="date"
+    placeholder="Jour, mois, année" class="input input-primary">
   </div>
   <!-- Race du perso -->
   <div class="input-field">
     <label for="race">Race du Personnage</label>
-    <select name="race" id="race" formControlName="race">
+    <select name="race" id="race" formControlName="race" class="m-3">
       <option *ngFor="let key of racesArray" [value]="key">{{ races[key] }}</option>
     </select>  </div>
   <!-- Classe du perso -->
   <div class="input-field">
     <label for="class">Classe du Personnage</label>
-    <select name="class" id="class" formControlName="class">
+    <select name="class" id="class" formControlName="class" class="m-3">
       <option *ngFor="let key of classesArray" [value]="key">{{ classes[key] }}</option>
     </select>
   </div>
   <!-- Role du personnage -->
   <div class="input-field">
     <label for="role">Rôle du Personnage</label>
-    <input type="text" id="role" formControlName="role" placeholder="McM, PvP, PvE...">
+    <input type="text" id="role" formControlName="role"
+    placeholder="McM, PvP, PvE..." class="input input-primary">
   </div>
   <!-- Ordre de la Tyrie -->
   <div class="input-field">
     <label for="order-select">Ordre de la Tyrie</label>
-    <select name="order" id="order-select" formControlName="order">
+    <select name="order" id="order-select" formControlName="order" class="m-3">
       <option *ngFor="let key of ordersArray" [value]="key">{{ orders[key] }}</option>
     </select>
   </div>
   <!-- Allié aidé -->
   <div class="input-field">
     <label for="ally">Allié aidé</label>
-    <input type="text" id="ally" formControlName="ally" placeholder="Allié aidé">
+    <input type="text" id="ally" formControlName="ally"
+    placeholder="Allié aidé" class="input input-primary">
   </div>
 </form>
 
-<button (click)="addCharacter()">Ajouter</button>
+<button class="btn btn-primary" (click)="addCharacter()">Ajouter</button>

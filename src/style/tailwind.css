@@ -2,11 +2,12 @@
 
 @tailwind components;
 
+/* @import './components/input.css'; */
 .input {
-  @apply border;
-  @apply rounded;
-  @apply p-2;
-} */
+  @apply border rounded;
+  @apply w-auto;
+  @apply p-2 m-3;
+}
 
 .input-primary:hover {
   @apply border-blue-300;
@@ -14,6 +15,16 @@
 
 .input-primary:focus {
   @apply border-blue-600;
+}
+
+.btn {
+  @apply py-2 px-3 m-2;
+  @apply rounded-lg;
+}
+
+.btn-primary {
+  @apply bg-blue-300;
+  @apply text-gray-700;
 }
 
 @tailwind utilities;
