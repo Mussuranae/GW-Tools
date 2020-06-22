@@ -1,0 +1,19 @@
+@tailwind base;
+
+@tailwind components;
+
+.input {
+  @apply border;
+  @apply rounded;
+  @apply p-2;
+} */
+
+.input-primary:hover {
+  @apply border-blue-300;
+}
+
+.input-primary:focus {
+  @apply border-blue-600;
+}
+
+@tailwind utilities;
