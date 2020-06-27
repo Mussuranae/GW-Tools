@@ -75,4 +75,22 @@ small {
   @apply text-xl font-semibold;
 }
 
+/**********************/
+/******** TABLE *******/
+/**********************/
+
+table {
+  @apply m-3;
+  @apply border-collapse border-2;
+}
+
+thead {
+  @apply border-b-2;
+}
+
+th, td {
+  @apply border p-3;
+  min-width: 100px;
+}
+
 @tailwind utilities;
