@@ -2,12 +2,17 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 // Components
+import { HomeComponent } from './home/home.component';
 import { DisplayComponent } from './characters/display/display.component';
 import { DesignComponent } from './design-component/design.component';
+import { DateTableComponent } from './characters/date-table/date-table.component';
 
 const routes: Routes = [
-  { path: '', component: DisplayComponent },
-  { path: 'design', component: DesignComponent }
+  { path: 'date', component: DateTableComponent },
+  { path: 'design', component: DesignComponent },
+  { path: 'home', component: HomeComponent },
+  { path: 'personnages', component: DisplayComponent },
+  { path: '', redirectTo: 'home', pathMatch: 'full' },
 ];
 
 @NgModule({
@@ -15,3 +20,10 @@ const routes: Routes = [
   exports: [RouterModule]
 })
 export class AppRoutingModule { }
+
+/**
+ * 1 - home avec lien pour naviguer vers différente page
+ * 2 - tableau des personnages
+ * 3 - graphique prix or/gemme
+ * 4 - récapitulatif histoire par perso
+ */

@@ -8,13 +8,17 @@ import { AppComponent } from './app.component';
 import { DisplayComponent } from './characters/display/display.component';
 import { FormComponent } from './characters/form/form.component';
 import { DesignComponent } from './design-component/design.component';
+import { DateTableComponent } from './characters/date-table/date-table.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DisplayComponent,
     FormComponent,
-    DesignComponent
+    DesignComponent,
+    DateTableComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,12 @@
+<h1>Bienvenu sur GW-Tools</h1>
+
+<section class="flex-row">
+  <article *ngFor="let card of cards">
+    <a [routerLink]="card.link">
+    <article class="card">
+      <p class="card-title">{{ card.title }}</p>
+      <small>{{ card.description }}</small>
+    </article>
+    </a>
+  </article>
+</section>
