@@ -1,0 +1,1140 @@
+{
+	"users": [
+		{
+			"id": 1,
+			"firstName": "Laverne",
+			"lastName": "Glover",
+			"email": "Hector_Borer@gmail.com"
+		},
+		{
+			"id": 2,
+			"firstName": "Mandy",
+			"lastName": "Cassin",
+			"email": "Garrison.Reichert87@gmail.com"
+		},
+		{
+			"id": 3,
+			"firstName": "Colleen",
+			"lastName": "Cruickshank",
+			"email": "Clarabelle_Hansen@yahoo.com"
+		},
+		{
+			"id": 4,
+			"firstName": "Leatha",
+			"lastName": "Rowe",
+			"email": "Karianne.Kuhn@gmail.com"
+		},
+		{
+			"id": 5,
+			"firstName": "Wava",
+			"lastName": "Muller",
+			"email": "Jesse_Kohler@yahoo.com"
+		},
+		{
+			"id": 6,
+			"firstName": "Sidney",
+			"lastName": "Stehr",
+			"email": "Heidi68@gmail.com"
+		},
+		{
+			"id": 7,
+			"firstName": "Marvin",
+			"lastName": "Williamson",
+			"email": "Aida52@yahoo.com"
+		},
+		{
+			"id": 8,
+			"firstName": "Lowell",
+			"lastName": "Leannon",
+			"email": "Cecelia.Boehm36@hotmail.com"
+		},
+		{
+			"id": 9,
+			"firstName": "Coralie",
+			"lastName": "Rolfson",
+			"email": "Winona53@gmail.com"
+		},
+		{
+			"id": 10,
+			"firstName": "Myrtie",
+			"lastName": "Cummerata",
+			"email": "Hulda_Lind@yahoo.com"
+		},
+		{
+			"id": 11,
+			"firstName": "Julia",
+			"lastName": "O'Kon",
+			"email": "Aletha78@hotmail.com"
+		},
+		{
+			"id": 12,
+			"firstName": "Wallace",
+			"lastName": "Hegmann",
+			"email": "Malinda.Krajcik@gmail.com"
+		},
+		{
+			"id": 13,
+			"firstName": "Noah",
+			"lastName": "Daugherty",
+			"email": "Michele_Beahan7@gmail.com"
+		},
+		{
+			"id": 14,
+			"firstName": "Tobin",
+			"lastName": "Russel",
+			"email": "Clementine.Flatley@gmail.com"
+		},
+		{
+			"id": 15,
+			"firstName": "Laurel",
+			"lastName": "Moore",
+			"email": "Valentin.OReilly@gmail.com"
+		},
+		{
+			"id": 16,
+			"firstName": "Loy",
+			"lastName": "Cummerata",
+			"email": "Darion_Wilkinson@yahoo.com"
+		},
+		{
+			"id": 17,
+			"firstName": "Antonina",
+			"lastName": "Sauer",
+			"email": "Lilyan.Wisoky56@hotmail.com"
+		},
+		{
+			"id": 18,
+			"firstName": "Kacey",
+			"lastName": "Rutherford",
+			"email": "Lew.Mitchell@hotmail.com"
+		},
+		{
+			"id": 19,
+			"firstName": "Erwin",
+			"lastName": "Emard",
+			"email": "Alphonso_Murray@yahoo.com"
+		},
+		{
+			"id": 20,
+			"firstName": "Roscoe",
+			"lastName": "Littel",
+			"email": "Brant_Hermiston@hotmail.com"
+		},
+		{
+			"id": 21,
+			"firstName": "Prince",
+			"lastName": "Kuvalis",
+			"email": "Allan.Gottlieb38@hotmail.com"
+		},
+		{
+			"id": 22,
+			"firstName": "Torrey",
+			"lastName": "Nikolaus",
+			"email": "Aurelie69@yahoo.com"
+		},
+		{
+			"id": 23,
+			"firstName": "Americo",
+			"lastName": "Jakubowski",
+			"email": "Jovani_Brown@hotmail.com"
+		},
+		{
+			"id": 24,
+			"firstName": "Jackeline",
+			"lastName": "Moore",
+			"email": "Rey.Baumbach@gmail.com"
+		},
+		{
+			"id": 25,
+			"firstName": "Antonietta",
+			"lastName": "Torphy",
+			"email": "Floyd.Schinner57@hotmail.com"
+		},
+		{
+			"id": 26,
+			"firstName": "Lizzie",
+			"lastName": "Marquardt",
+			"email": "Ola.Hirthe10@yahoo.com"
+		},
+		{
+			"id": 27,
+			"firstName": "Pasquale",
+			"lastName": "Weimann",
+			"email": "Dave_Hoeger@gmail.com"
+		},
+		{
+			"id": 28,
+			"firstName": "Alverta",
+			"lastName": "Treutel",
+			"email": "Kristy42@gmail.com"
+		},
+		{
+			"id": 29,
+			"firstName": "Winifred",
+			"lastName": "Renner",
+			"email": "Roxanne_Robel16@hotmail.com"
+		},
+		{
+			"id": 30,
+			"firstName": "Danny",
+			"lastName": "Quitzon",
+			"email": "Naomi_Trantow@yahoo.com"
+		},
+		{
+			"id": 31,
+			"firstName": "David",
+			"lastName": "Yost",
+			"email": "America_Pfeffer17@hotmail.com"
+		},
+		{
+			"id": 32,
+			"firstName": "Corine",
+			"lastName": "Harber",
+			"email": "Damien_Feest54@yahoo.com"
+		},
+		{
+			"id": 33,
+			"firstName": "Adell",
+			"lastName": "Ondricka",
+			"email": "Dwight.Larson45@yahoo.com"
+		},
+		{
+			"id": 34,
+			"firstName": "Edward",
+			"lastName": "Pfeffer",
+			"email": "Jacinthe_Jakubowski@hotmail.com"
+		},
+		{
+			"id": 35,
+			"firstName": "Eugenia",
+			"lastName": "Wolff",
+			"email": "Marcel_Batz10@hotmail.com"
+		},
+		{
+			"id": 36,
+			"firstName": "Aurelia",
+			"lastName": "Lockman",
+			"email": "Elisha_Champlin45@gmail.com"
+		},
+		{
+			"id": 37,
+			"firstName": "Pauline",
+			"lastName": "Schinner",
+			"email": "Domenica_Larson46@gmail.com"
+		},
+		{
+			"id": 38,
+			"firstName": "Bo",
+			"lastName": "Nienow",
+			"email": "Christopher95@hotmail.com"
+		},
+		{
+			"id": 39,
+			"firstName": "Aurelio",
+			"lastName": "Jaskolski",
+			"email": "Holly81@gmail.com"
+		},
+		{
+			"id": 40,
+			"firstName": "Vella",
+			"lastName": "Goyette",
+			"email": "Leif84@hotmail.com"
+		},
+		{
+			"id": 41,
+			"firstName": "Carlie",
+			"lastName": "Bradtke",
+			"email": "King.Reichert@hotmail.com"
+		},
+		{
+			"id": 42,
+			"firstName": "Otto",
+			"lastName": "Hermann",
+			"email": "Braulio_Kovacek@gmail.com"
+		},
+		{
+			"id": 43,
+			"firstName": "Abelardo",
+			"lastName": "Dicki",
+			"email": "Sydney_Bahringer@gmail.com"
+		},
+		{
+			"id": 44,
+			"firstName": "Queen",
+			"lastName": "Senger",
+			"email": "Reanna_Upton7@gmail.com"
+		},
+		{
+			"id": 45,
+			"firstName": "Bella",
+			"lastName": "Beier",
+			"email": "Claud_Rowe21@yahoo.com"
+		},
+		{
+			"id": 46,
+			"firstName": "Camylle",
+			"lastName": "Blanda",
+			"email": "Rae_Gulgowski5@hotmail.com"
+		},
+		{
+			"id": 47,
+			"firstName": "Urban",
+			"lastName": "Murray",
+			"email": "Elva.Kuhlman@yahoo.com"
+		},
+		{
+			"id": 48,
+			"firstName": "Gerry",
+			"lastName": "Kovacek",
+			"email": "Daren.Bechtelar@gmail.com"
+		},
+		{
+			"id": 49,
+			"firstName": "Milton",
+			"lastName": "Barton",
+			"email": "Philip.Ferry59@hotmail.com"
+		},
+		{
+			"id": 50,
+			"firstName": "Kayleigh",
+			"lastName": "Goodwin",
+			"email": "Monica_Lynch@gmail.com"
+		}
+	],
+	"movies": [
+		{
+			"id": 1,
+			"title": "vel expedita",
+			"producer": {
+				"firstName": "Eduardo",
+				"lastName": "Johnston"
+			},
+			"languages": "Israel"
+		},
+		{
+			"id": 2,
+			"title": "beatae et",
+			"producer": {
+				"firstName": "Rigoberto",
+				"lastName": "Kovacek"
+			},
+			"languages": "Yemen"
+		},
+		{
+			"id": 3,
+			"title": "iusto quis",
+			"producer": {
+				"firstName": "Jordon",
+				"lastName": "Kuvalis"
+			},
+			"languages": "Honduras"
+		},
+		{
+			"id": 4,
+			"title": "mollitia magnam",
+			"producer": {
+				"firstName": "Camila",
+				"lastName": "Cassin"
+			},
+			"languages": "Anguilla"
+		},
+		{
+			"id": 5,
+			"title": "qui explicabo",
+			"producer": {
+				"firstName": "Gaston",
+				"lastName": "Dooley"
+			},
+			"languages": "Bangladesh"
+		},
+		{
+			"id": 6,
+			"title": "architecto molestiae",
+			"producer": {
+				"firstName": "Karley",
+				"lastName": "Wuckert"
+			},
+			"languages": "Bermuda"
+		},
+		{
+			"id": 7,
+			"title": "odit qui",
+			"producer": {
+				"firstName": "Dannie",
+				"lastName": "Kunde"
+			},
+			"languages": "Spain"
+		},
+		{
+			"id": 8,
+			"title": "sunt libero",
+			"producer": {
+				"firstName": "Brannon",
+				"lastName": "Funk"
+			},
+			"languages": "Kazakhstan"
+		},
+		{
+			"id": 9,
+			"title": "ipsa possimus",
+			"producer": {
+				"firstName": "Delia",
+				"lastName": "Blick"
+			},
+			"languages": "United States of America"
+		},
+		{
+			"id": 10,
+			"title": "non nostrum",
+			"producer": {
+				"firstName": "Kayley",
+				"lastName": "Shields"
+			},
+			"languages": "Somalia"
+		},
+		{
+			"id": 11,
+			"title": "recusandae inventore",
+			"producer": {
+				"firstName": "Quentin",
+				"lastName": "Romaguera"
+			},
+			"languages": "Spain"
+		},
+		{
+			"id": 12,
+			"title": "et mollitia",
+			"producer": {
+				"firstName": "Nina",
+				"lastName": "Hirthe"
+			},
+			"languages": "Vietnam"
+		},
+		{
+			"id": 13,
+			"title": "aliquam corporis",
+			"producer": {
+				"firstName": "Sterling",
+				"lastName": "Gorczany"
+			},
+			"languages": "Grenada"
+		},
+		{
+			"id": 14,
+			"title": "quis nam",
+			"producer": {
+				"firstName": "Gus",
+				"lastName": "O'Reilly"
+			},
+			"languages": "Maldives"
+		},
+		{
+			"id": 15,
+			"title": "qui qui",
+			"producer": {
+				"firstName": "Irma",
+				"lastName": "Lubowitz"
+			},
+			"languages": "Saint Lucia"
+		},
+		{
+			"id": 16,
+			"title": "quia laboriosam",
+			"producer": {
+				"firstName": "Emmet",
+				"lastName": "Kiehn"
+			},
+			"languages": "Honduras"
+		},
+		{
+			"id": 17,
+			"title": "laborum sint",
+			"producer": {
+				"firstName": "Wilber",
+				"lastName": "Jast"
+			},
+			"languages": "Macao"
+		},
+		{
+			"id": 18,
+			"title": "quia totam",
+			"producer": {
+				"firstName": "Maximilian",
+				"lastName": "Brakus"
+			},
+			"languages": "Venezuela"
+		},
+		{
+			"id": 19,
+			"title": "dignissimos culpa",
+			"producer": {
+				"firstName": "Darius",
+				"lastName": "Dach"
+			},
+			"languages": "Morocco"
+		},
+		{
+			"id": 20,
+			"title": "vitae voluptas",
+			"producer": {
+				"firstName": "Gwendolyn",
+				"lastName": "Stroman"
+			},
+			"languages": "Sri Lanka"
+		},
+		{
+			"id": 21,
+			"title": "quia corporis",
+			"producer": {
+				"firstName": "Geovanni",
+				"lastName": "Schmidt"
+			},
+			"languages": "Angola"
+		},
+		{
+			"id": 22,
+			"title": "ullam at",
+			"producer": {
+				"firstName": "Evangeline",
+				"lastName": "Welch"
+			},
+			"languages": "Cape Verde"
+		},
+		{
+			"id": 23,
+			"title": "omnis dolore",
+			"producer": {
+				"firstName": "Brendon",
+				"lastName": "Jaskolski"
+			},
+			"languages": "Kiribati"
+		},
+		{
+			"id": 24,
+			"title": "quos error",
+			"producer": {
+				"firstName": "Josiane",
+				"lastName": "Nikolaus"
+			},
+			"languages": "Malta"
+		},
+		{
+			"id": 25,
+			"title": "error accusamus",
+			"producer": {
+				"firstName": "Bartholome",
+				"lastName": "Brown"
+			},
+			"languages": "Haiti"
+		},
+		{
+			"id": 26,
+			"title": "est aut",
+			"producer": {
+				"firstName": "Aditya",
+				"lastName": "Boyer"
+			},
+			"languages": "Peru"
+		},
+		{
+			"id": 27,
+			"title": "dolores facere",
+			"producer": {
+				"firstName": "Zoila",
+				"lastName": "Hermiston"
+			},
+			"languages": "Antigua and Barbuda"
+		},
+		{
+			"id": 28,
+			"title": "deleniti autem",
+			"producer": {
+				"firstName": "Kirstin",
+				"lastName": "Hackett"
+			},
+			"languages": "Cyprus"
+		},
+		{
+			"id": 29,
+			"title": "aut voluptatum",
+			"producer": {
+				"firstName": "Casandra",
+				"lastName": "Lowe"
+			},
+			"languages": "San Marino"
+		},
+		{
+			"id": 30,
+			"title": "temporibus voluptatem",
+			"producer": {
+				"firstName": "Giovanni",
+				"lastName": "Keeling"
+			},
+			"languages": "Bahrain"
+		}
+	],
+	"screenings": [
+		{
+			"id": 1,
+			"title": "Screening",
+			"start": "2020-10-01T23:05:34.079Z",
+			"end": "2020-10-03T20:33:23.996Z",
+			"movieId": 30,
+			"attendees": [
+				14,
+				14
+			],
+			"invited": [
+				14,
+				2
+			]
+		},
+		{
+			"id": 2,
+			"title": "Screening",
+			"start": "2020-10-01T07:23:45.166Z",
+			"end": "2020-10-04T00:31:48.681Z",
+			"movieId": 11,
+			"attendees": [
+				33,
+				33,
+				33,
+				33,
+				33,
+				33
+			],
+			"invited": [
+				33,
+				0
+			]
+		},
+		{
+			"id": 3,
+			"title": "Screening",
+			"start": "2020-10-01T06:38:35.273Z",
+			"end": "2020-10-05T14:15:59.712Z",
+			"movieId": 8,
+			"attendees": [
+				46,
+				46,
+				42,
+				42
+			],
+			"invited": [
+				46,
+				42
+			]
+		},
+		{
+			"id": 4,
+			"title": "Screening",
+			"start": "2020-10-02T12:20:31.319Z",
+			"end": "2020-10-06T03:32:57.940Z",
+			"movieId": 23,
+			"attendees": [
+				43,
+				43,
+				43
+			],
+			"invited": [
+				43
+			]
+		},
+		{
+			"id": 5,
+			"title": "Screening",
+			"start": "2020-10-02T08:16:57.008Z",
+			"end": "2020-10-03T22:04:14.210Z",
+			"movieId": 17,
+			"attendees": [
+				23,
+				23
+			],
+			"invited": [
+				23
+			]
+		},
+		{
+			"id": 6,
+			"title": "Screening",
+			"start": "2020-10-02T14:42:36.689Z",
+			"end": "2020-10-05T18:11:22.116Z",
+			"movieId": 18,
+			"attendees": [
+				12,
+				12,
+				12
+			],
+			"invited": [
+				12,
+				13,
+				12
+			]
+		},
+		{
+			"id": 7,
+			"title": "Screening",
+			"start": "2020-10-01T01:19:22.896Z",
+			"end": "2020-10-05T19:06:19.826Z",
+			"movieId": 30,
+			"attendees": [
+				10,
+				10,
+				39,
+				39
+			],
+			"invited": [
+				10,
+				39
+			]
+		},
+		{
+			"id": 8,
+			"title": "Screening",
+			"start": "2020-10-02T09:41:40.373Z",
+			"end": "2020-10-05T00:09:55.400Z",
+			"movieId": 13,
+			"attendees": [
+				47,
+				47,
+				47
+			],
+			"invited": [
+				47
+			]
+		},
+		{
+			"id": 9,
+			"title": "Screening",
+			"start": "2020-10-02T02:05:35.176Z",
+			"end": "2020-10-06T22:36:57.905Z",
+			"movieId": 13,
+			"attendees": [
+				38,
+				38,
+				20,
+				38,
+				38,
+				20,
+				20,
+				38,
+				50,
+				20
+			],
+			"invited": [
+				38,
+				20,
+				50,
+				1,
+				20
+			]
+		},
+		{
+			"id": 10,
+			"title": "Screening",
+			"start": "2020-10-02T13:39:41.245Z",
+			"end": "2020-10-06T06:43:00.761Z",
+			"movieId": 17,
+			"attendees": [
+				46
+			],
+			"invited": [
+				46
+			]
+		},
+		{
+			"id": 11,
+			"title": "Screening",
+			"start": "2020-10-12T01:47:05.944Z",
+			"end": "2020-10-19T11:46:04.766Z",
+			"movieId": 30,
+			"attendees": [
+				42,
+				42,
+				42,
+				31,
+				42,
+				31,
+				31,
+				31,
+				19,
+				19,
+				40,
+				42
+			],
+			"invited": [
+				42,
+				31,
+				19,
+				40
+			]
+		},
+		{
+			"id": 12,
+			"title": "Screening",
+			"start": "2020-10-13T03:34:02.677Z",
+			"end": "2020-10-15T14:36:54.478Z",
+			"movieId": 25,
+			"attendees": [
+				9,
+				9,
+				9,
+				27,
+				27,
+				9,
+				27,
+				11,
+				9,
+				27,
+				9,
+				9,
+				39,
+				11,
+				9
+			],
+			"invited": [
+				9,
+				27,
+				11,
+				39,
+				17
+			]
+		},
+		{
+			"id": 13,
+			"title": "Screening",
+			"start": "2020-10-10T01:26:18.175Z",
+			"end": "2020-10-17T15:51:19.499Z",
+			"movieId": 0,
+			"attendees": [
+				47,
+				47,
+				33
+			],
+			"invited": [
+				47,
+				33,
+				5
+			]
+		},
+		{
+			"id": 14,
+			"title": "Screening",
+			"start": "2020-10-11T18:39:19.567Z",
+			"end": "2020-10-17T12:25:59.306Z",
+			"movieId": 21,
+			"attendees": [
+				34,
+				34,
+				42,
+				34,
+				22,
+				22,
+				22,
+				44,
+				22,
+				42
+			],
+			"invited": [
+				34,
+				42,
+				22,
+				44,
+				9
+			]
+		},
+		{
+			"id": 15,
+			"title": "Screening",
+			"start": "2020-10-10T07:22:49.425Z",
+			"end": "2020-10-19T11:57:04.226Z",
+			"movieId": 7,
+			"attendees": [
+				0
+			],
+			"invited": [
+				0
+			]
+		},
+		{
+			"id": 16,
+			"title": "Screening",
+			"start": "2020-10-13T03:19:43.982Z",
+			"end": "2020-10-16T07:53:58.340Z",
+			"movieId": 13,
+			"attendees": [
+				30,
+				30,
+				30
+			],
+			"invited": [
+				30,
+				25,
+				44
+			]
+		},
+		{
+			"id": 17,
+			"title": "Screening",
+			"start": "2020-10-12T15:58:37.984Z",
+			"end": "2020-10-14T14:10:52.036Z",
+			"movieId": 23,
+			"attendees": [
+				37,
+				37,
+				37,
+				37,
+				37,
+				22,
+				37,
+				37,
+				27
+			],
+			"invited": [
+				37,
+				22,
+				27
+			]
+		},
+		{
+			"id": 18,
+			"title": "Screening",
+			"start": "2020-10-11T08:46:41.731Z",
+			"end": "2020-10-17T00:00:18.102Z",
+			"movieId": 30,
+			"attendees": [
+				26,
+				26,
+				26,
+				33,
+				50,
+				33
+			],
+			"invited": [
+				26,
+				33,
+				50
+			]
+		},
+		{
+			"id": 19,
+			"title": "Screening",
+			"start": "2020-10-12T20:50:16.889Z",
+			"end": "2020-10-18T11:03:47.084Z",
+			"movieId": 7,
+			"attendees": [
+				27,
+				27
+			],
+			"invited": [
+				27
+			]
+		},
+		{
+			"id": 20,
+			"title": "Screening",
+			"start": "2020-10-10T18:28:53.656Z",
+			"end": "2020-10-15T19:28:18.817Z",
+			"movieId": 28,
+			"attendees": [
+				9
+			],
+			"invited": [
+				9
+			]
+		},
+		{
+			"id": 21,
+			"title": "Screening",
+			"start": "2020-10-23T22:07:46.266Z",
+			"end": "2020-10-29T16:12:59.018Z",
+			"movieId": 17,
+			"attendees": [
+				5,
+				5,
+				5,
+				5,
+				5,
+				5,
+				0,
+				0,
+				5
+			],
+			"invited": [
+				5,
+				0,
+				4
+			]
+		},
+		{
+			"id": 22,
+			"title": "Screening",
+			"start": "2020-10-23T05:38:55.739Z",
+			"end": "2020-10-29T12:25:28.075Z",
+			"movieId": 10,
+			"attendees": [
+				12,
+				12,
+				20,
+				20,
+				12,
+				8,
+				8,
+				41
+			],
+			"invited": [
+				12,
+				20,
+				8,
+				41
+			]
+		},
+		{
+			"id": 23,
+			"title": "Screening",
+			"start": "2020-10-24T20:11:39.241Z",
+			"end": "2020-10-28T03:49:39.551Z",
+			"movieId": 22,
+			"attendees": [
+				33
+			],
+			"invited": [
+				33
+			]
+		},
+		{
+			"id": 24,
+			"title": "Screening",
+			"start": "2020-10-23T07:46:49.448Z",
+			"end": "2020-10-26T13:22:59.176Z",
+			"movieId": 17,
+			"attendees": [
+				15,
+				15,
+				15,
+				47,
+				47,
+				16,
+				47,
+				47,
+				37,
+				47
+			],
+			"invited": [
+				15,
+				47,
+				16,
+				37,
+				48
+			]
+		},
+		{
+			"id": 25,
+			"title": "Screening",
+			"start": "2020-10-22T09:15:31.422Z",
+			"end": "2020-10-29T20:50:27.434Z",
+			"movieId": 15,
+			"attendees": [
+				28,
+				28
+			],
+			"invited": [
+				28,
+				20
+			]
+		},
+		{
+			"id": 26,
+			"title": "Screening",
+			"start": "2020-10-24T17:15:41.685Z",
+			"end": "2020-10-27T18:51:59.365Z",
+			"movieId": 22,
+			"attendees": [
+				30,
+				37
+			],
+			"invited": [
+				30,
+				37
+			]
+		},
+		{
+			"id": 27,
+			"title": "Screening",
+			"start": "2020-10-24T14:36:19.080Z",
+			"end": "2020-10-27T13:27:39.296Z",
+			"movieId": 5,
+			"attendees": [
+				29,
+				29,
+				29,
+				39,
+				29,
+				29
+			],
+			"invited": [
+				29,
+				39
+			]
+		},
+		{
+			"id": 28,
+			"title": "Screening",
+			"start": "2020-10-24T02:59:32.393Z",
+			"end": "2020-10-29T12:22:30.842Z",
+			"movieId": 17,
+			"attendees": [
+				38,
+				38,
+				38,
+				1,
+				1,
+				1,
+				38,
+				37,
+				1
+			],
+			"invited": [
+				38,
+				1,
+				37
+			]
+		},
+		{
+			"id": 29,
+			"title": "Screening",
+			"start": "2020-10-22T05:11:09.504Z",
+			"end": "2020-10-28T14:13:28.924Z",
+			"movieId": 2,
+			"attendees": [
+				14
+			],
+			"invited": [
+				14
+			]
+		},
+		{
+			"id": 30,
+			"title": "Screening",
+			"start": "2020-10-22T07:31:19.815Z",
+			"end": "2020-10-29T23:54:40.104Z",
+			"movieId": 10,
+			"attendees": [
+				47,
+				47,
+				47,
+				11,
+				20,
+				11,
+				20,
+				11
+			],
+			"invited": [
+				47,
+				11,
+				20,
+				9
+			]
+		}
+	]
+}

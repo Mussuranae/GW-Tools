@@ -20,8 +20,12 @@
     "@angular/platform-browser": "~9.1.0",
     "@angular/platform-browser-dynamic": "~9.1.0",
     "@angular/router": "~9.1.0",
+    "faker": "^5.1.0",
+    "g": "^2.0.1",
+    "json-server": "^0.16.2",
     "ng-tailwind": "0.0.150",
     "ng-tailwindcss": "^2.2.2",
+    "request": "^2.88.2",
     "rxjs": "~6.5.4",
     "tslib": "^1.10.0",
     "zone.js": "~0.10.2"
@@ -48,5 +52,18 @@
     "ts-node": "~8.3.0",
     "tslint": "~6.1.0",
     "typescript": "~3.8.3"
-  }
+  },
+  "description": "This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.1.0.",
+  "main": "karma.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mussuranae/GW-Tools.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mussuranae/GW-Tools/issues"
+  },
+  "homepage": "https://github.com/Mussuranae/GW-Tools#readme"
 }
