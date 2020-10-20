@@ -1,6 +1,6 @@
 <h3>Ajouter un personnage</h3>
 
-<form [formGroup]="characterForm">
+<form [formGroup]="characterForm" (ngSubmit)="onSubmit()">
   <!-- Nom du perso -->
   <div class="input-field">
     <label for="name">Nom du Personnage</label>
@@ -17,13 +17,13 @@
   <div class="input-field">
     <label for="race">Race du Personnage</label>
     <select name="race" id="race" formControlName="race" class="m-3">
-      <option *ngFor="let key of racesArray" [value]="key">{{ races[key] }}</option>
+      <option *ngFor="let race of races | keyvalue" [value]="race.key">{{ race.value }}</option>
     </select>  </div>
   <!-- Classe du perso -->
   <div class="input-field">
     <label for="class">Classe du Personnage</label>
     <select name="class" id="class" formControlName="class" class="m-3">
-      <option *ngFor="let key of classesArray" [value]="key">{{ classes[key] }}</option>
+      <option *ngFor="let classe of classes | keyvalue" [value]="classe.key">{{ classe.value }}</option>
     </select>
   </div>
   <!-- Role du personnage -->
@@ -36,7 +36,7 @@
   <div class="input-field">
     <label for="order-select">Ordre de la Tyrie</label>
     <select name="order" id="order-select" formControlName="order" class="m-3">
-      <option *ngFor="let key of ordersArray" [value]="key">{{ orders[key] }}</option>
+      <option *ngFor="let order of orders | keyvalue" [value]="order.key">{{ order.value }}</option>
     </select>
   </div>
   <!-- Allié aidé -->
@@ -47,4 +47,5 @@
   </div>
 </form>
 
-<button class="btn btn-primary" (click)="addCharacter()">Ajouter</button>
+<button class="btn btn-primary" type="submit">Ajouter</button>
+<a routerLink="../personnages" class="btn btn-primary">Back</a>

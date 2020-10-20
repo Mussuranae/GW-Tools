@@ -23,12 +23,12 @@
           <td>{{ char.role }}</td>
           <td>{{ orders[char.order] }}</td>
           <td>{{ char.ally }}</td>
+          <td><a routerLink="../edit/{{char.id}}">Edit</a></td>
         </tr>
       </tbody>
     </table>
   </article>
 
-  <article>
-    <character-form (newCharacter)="addCharacter($event)"></character-form>
-  </article>
+  <a routerLink="../add" class="btn btn-primary">Add new character</a>
+
 </section>

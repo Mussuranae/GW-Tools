@@ -24,6 +24,11 @@
 /******* BUTTON *******/
 /**********************/
 
+button, a.btn {
+  height: 40px;
+  width: 100px;
+}
+
 .btn {
   @apply py-2 px-3 m-2;
   @apply rounded-lg;
@@ -32,6 +37,10 @@
 .btn-primary {
   @apply bg-blue-300;
   @apply text-gray-700;
+  &:hover {
+    @apply bg-blue-500;
+    @apply text-white;
+  }
 }
 
 /**********************/

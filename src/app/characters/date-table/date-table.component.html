@@ -1,1 +1,20 @@
-<p>date-table works!</p>
+<table>
+  <thead>
+    <tr>
+      <th>Compte</th>
+      <th>Date de naissance</th>
+      <th>Jour restants</th>
+      <th>Mois restants</th>
+      <th>Temps de jeu</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let row of accountArray">
+      <td>{{ row.character }}</td>
+      <td>{{ row.birthday | date: 'dd/MM/yyyy' }}</td>
+      <td>{{ getDay(row.birthday) }}</td>
+      <td>{{ getMonth(row.birthday) }}</td>
+      <td>{{ row.gamingTime }}</td>
+    </tr>
+  </tbody>
+</table>
