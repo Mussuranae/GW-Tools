@@ -8,12 +8,23 @@ function generate() {
     const firstName = faker.name.firstName();
     const lastName = faker.name.lastName();
     const email = faker.internet.email();
+    const firstConnexion = faker.date.between("2020-10-01", "2020-10-10")
+    const connexions = [];
+
+    for(let nb=1; nb<=8; nb++) {
+      const newConnexion = faker.date.between("2020-10-11", "2020-10-31")
+      if(!connexions.includes(newConnexion)) {
+        connexions.push(newConnexion);
+      }
+    }
 
     users.push({
       "id": id,
       "firstName": firstName,
       "lastName": lastName,
-      "email": email
+      "email": email,
+      "firstConnexion": firstConnexion,
+      "connexions": connexions
     })
   }
 
@@ -149,7 +160,7 @@ function generate() {
 
 let dataObj = generate();
 
-fs.writeFileSync('data-bis.json', JSON.stringify(dataObj, null, '\t'));
+fs.writeFileSync('data-ter.json', JSON.stringify(dataObj, null, '\t'));
 
 /**
  * par event: nb de participant + nom - prénom + temps resté + movie relié à l'event
