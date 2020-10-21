@@ -13,20 +13,29 @@ export class CharacterService {
   constructor() {}
 
   add(character: Character) {
-    this.characters.push(character);
+    const randomId = Math.floor(Math.random() * Math.floor(100));
+    this.characters.push({
+      id: randomId,
+      ...character
+    });
   }
 
   getAll(): Observable<Character[]> {
     return of(characters);
   }
 
-  getOneById(id: string) {
+  getOneById(id: number) {
     return this.characters.find(char => id === char.id);
   }
 
   update(character: Character) {
-    return this.characters.splice(1, 1, character);
+    const index = this.characters.findIndex(c => c.id === character.id);
+    this.characters.splice(index, 1, character);
   }
 
-  delete() {}
+  delete(id: number) {
+    const index = this.characters.findIndex(c => c.id === id)
+    this.characters.splice(index, 1);
+    return this.characters;
+  }
 }

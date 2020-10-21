@@ -12,10 +12,11 @@ import { Character } from '../../data/enum-interface';
 })
 export class FormComponent implements OnInit {
 
-  private id: string;
+  public id: number;
   // Form
   // @Output() newCharacter = new EventEmitter();
   characterForm: FormGroup;
+  character: Character;
 
   // Const preparation
   public orders = Orders;
@@ -29,21 +30,20 @@ export class FormComponent implements OnInit {
     private router: Router) {}
 
   ngOnInit() {
-    console.log(this.orders)
-    this.id = this.route.snapshot.paramMap.get('id');
-    if (this.id != null) {
-      const char = this.charService.getOneById(this.id);
+    const idParam = this.route.snapshot.paramMap.get('id');
+    this.id = Number(idParam);
+    if (this.id !== 0) {
+      this.character = this.charService.getOneById(this.id);
       this.characterForm = this.fb.group({
-        name: new FormControl(char.name),
-        date: new FormControl(char.date),
-        race: new FormControl(char.race),
-        class: new FormControl(char.class),
-        role: new FormControl(char.role),
-        order: new FormControl(char.order),
-        ally: new FormControl(char.ally)
+        name: this.character.name,
+        date: this.character.date,
+        race: this.character.race,
+        class: this.character.class,
+        role: this.character.role,
+        order: this.character.order,
+        ally: this.character.ally
       });
-    }
-    else {
+    } else {
       this.characterForm = this.fb.group({
         name: new FormControl(''),
         date: new FormControl(''),
@@ -57,21 +57,16 @@ export class FormComponent implements OnInit {
   }
 
   onSubmit() {
-    console.log('coucou')
     if (this.characterForm.valid) {
-      console.log('form valid')
-      const newChar = {
-        id: this.id,
-        ...this.characterForm.value
-      };
-      if (newChar.id != null) {
-        console.log('update')
-        this.charService.update(newChar);
+      if (this.id !== 0) {
+        this.charService.update({
+          id: this.id,
+          ...this.characterForm.value
+        });
       } else {
-        console.log('add')
-        this.charService.add(newChar);
+        this.charService.add(this.characterForm.value);
       }
+      this.router.navigate(['../personnages']);
     }
-    this.router.navigate(['../personnages']);
   }
 }

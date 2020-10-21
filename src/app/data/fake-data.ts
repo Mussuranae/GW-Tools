@@ -1,9 +1,9 @@
 import { Character, DateArray } from "../data/enum-interface";
 
 export const characters: Character[] = [
-  { id: '1', name: 'Sith Rousse', date: new Date(), race: 'humain', class: 'voleur', role: 'McM', order: 'soupir', ally: '' },
-  { id: '2', name: 'Mussy Rana', date: new Date(), race: 'norn', class: 'necromant', role: 'McM', order: 'durmand', ally: 'Ogre' },
-  { id: '3', name: 'Shar Na Rök', date: new Date(), race: 'charr', class: 'revenant', role: 'McM', order: 'soupir', ally: 'Skritt' },
+  { id: 1, name: 'Sith Rousse', date: new Date(), race: 'humain', class: 'voleur', role: 'McM', order: 'soupir', ally: '' },
+  { id: 2, name: 'Mussy Rana', date: new Date(), race: 'norn', class: 'necromant', role: 'McM', order: 'durmand', ally: 'Ogre' },
+  { id: 3, name: 'Shar Na Rök', date: new Date(), race: 'charr', class: 'revenant', role: 'McM', order: 'soupir', ally: 'Skritt' },
 ];
 
 export const accountArray: DateArray[] = [

@@ -1,6 +1,6 @@
 <h3>Ajouter un personnage</h3>
 
-<form [formGroup]="characterForm" (ngSubmit)="onSubmit()">
+<form [formGroup]="characterForm">
   <!-- Nom du perso -->
   <div class="input-field">
     <label for="name">Nom du Personnage</label>
@@ -18,7 +18,8 @@
     <label for="race">Race du Personnage</label>
     <select name="race" id="race" formControlName="race" class="m-3">
       <option *ngFor="let race of races | keyvalue" [value]="race.key">{{ race.value }}</option>
-    </select>  </div>
+    </select>
+  </div>
   <!-- Classe du perso -->
   <div class="input-field">
     <label for="class">Classe du Personnage</label>
@@ -47,5 +48,4 @@
   </div>
 </form>
 
-<button class="btn btn-primary" type="submit">Ajouter</button>
-<a routerLink="../personnages" class="btn btn-primary">Back</a>
+<button class="btn btn-primary" type="submit" (click)="onSubmit()">{{ id ? "Editer" : "Ajouter" }}</button>

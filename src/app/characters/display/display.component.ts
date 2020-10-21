@@ -19,4 +19,8 @@ export class DisplayComponent implements OnInit {
   ngOnInit() {
     this.charService.getAll().subscribe(characters => this.characters = characters);
   }
+
+  deleteCharacter(id: number) {
+    this.charService.delete(id);
+  }
 }

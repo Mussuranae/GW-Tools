@@ -25,7 +25,7 @@ export const Classes = {
 }
 
 export interface Character {
-  id: string;
+  id: number;
   name: string;
   date: Date;
   race: string;

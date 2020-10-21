@@ -24,6 +24,7 @@
           <td>{{ orders[char.order] }}</td>
           <td>{{ char.ally }}</td>
           <td><a routerLink="../edit/{{char.id}}">Edit</a></td>
+          <td><button (click)="deleteCharacter(char.id)">Delete</button></td>
         </tr>
       </tbody>
     </table>
